@@ -9,7 +9,8 @@ import streamlit as st
 
 
 ## Load the saved model
-model = load_model("c:\\ndsha_maps\\learning\\python\\DevAcademy\\Projects\\Week08_Streamlit\\heart_disease_model.h5")
+# model = load_model("c:\\ndsha_maps\\learning\\python\\DevAcademy\\Projects\\Week08_Streamlit\\heart_disease_model.h5")
+model = load_model("heart_disease_model.h5")
 
 
 ## Create a function for prediction
